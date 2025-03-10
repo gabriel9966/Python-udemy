@@ -1,4 +1,4 @@
-#Operadores lógicos servem para conectar expressões
+#Operadores lógicos servem para conectar expressões,palavra-chave usado para realizar operações sobre valores booleanos 
 #and = e
 #Todas as condições precisam ser verdadeiras
 
