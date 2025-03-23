@@ -3,3 +3,4 @@ nome = 'Luiz'
 valor = 34.677657657
 txt = '%s vai pagar %.2f' % (nome,valor)
 print(txt)
+print(hex(15))
