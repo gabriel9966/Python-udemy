@@ -34,6 +34,6 @@ for i in range(10):
 soma_cpf2 = (soma_cpf2 * 10) % 11
 
 
-print("Seu CPF é :",*numeros_cpf , soma_cpf2)
+print("Seu CPF é :",*numeros_cpf , soma_cpf2)#
 
 
