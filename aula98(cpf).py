@@ -1,4 +1,4 @@
-cpf = input("Digite seu CPF:").strip()
+cpf = input("Digite os primeiros 9 números do seu CPF:").strip()
 
 
 numeros_cpf = []
@@ -23,19 +23,17 @@ for i in range(9):
     soma_cpf += (numeros_cpf[i] * multiplicador)
     multiplicador-=1
 #validação2
+
+soma_cpf = (soma_cpf * 10) % 11
+numeros_cpf.append(soma_cpf)
+
 for i in range(10):
     soma_cpf2 += (numeros_cpf[i] * multiplicador2)
     multiplicador2-=1
 
-
-
-
-
-soma_cpf = (soma_cpf * 10) % 11
 soma_cpf2 = (soma_cpf2 * 10) % 11
 
 
-print(0 if soma_cpf > 9 else soma_cpf)
-print(0 if soma_cpf2 > 9 else soma_cpf2)
+print("Seu CPF é :",*numeros_cpf , soma_cpf2)
 
 
