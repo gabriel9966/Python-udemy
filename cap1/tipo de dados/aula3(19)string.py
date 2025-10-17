@@ -10,3 +10,5 @@ print('"oi"')
 
 # escape
 print(" as as \"asasas\" aa")
+
+#print(5 + 'abc') isso da erro por causa da tipagem forte

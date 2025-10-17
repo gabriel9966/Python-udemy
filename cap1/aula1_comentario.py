@@ -12,6 +12,7 @@ Ou para explicar seu código
 '''
 
 #aula 15 na udemy
+
 #Comentários padrão o interpretador não lê
 print("Aula 1")
 print(123)# frente
