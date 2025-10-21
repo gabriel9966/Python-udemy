@@ -37,9 +37,9 @@ print(4.5 - 2.2)
 
 
 #type() = função que retorna o tipo do dado
-print(type(0))
+print(0,type(0))
 print(type(-1))
-print(type(0.0)) 
+print(0.0,type(0.0)) 
 print(True == 1)
 
 print(False == 0.0)
