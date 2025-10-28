@@ -11,13 +11,12 @@ string = 'b={nome2} a={nome1} a={nome1} c={nome3:.2f}'
 formato2 = string.format(
     nome1=a, nome2=b, nome3=c
 )
-string2 = 'b={} a={}  c={}'
-formato3 = string2.format(
-    nome1=a, nome2=b, nome3=c
-)
 
+#a,b,c = argumentos
+texto = '{1}{2}{0}'.format(a,b,c)
 
 
 print(formato2)
+print(texto)
 
-print(formato3)
+

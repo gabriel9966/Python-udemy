@@ -18,4 +18,3 @@ print("Aula 1")
 print(123)# frente
 #Abaixo
 
-"OI"
