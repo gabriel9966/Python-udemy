@@ -11,3 +11,4 @@ print(txt[4:])
 print(txt[3])
 print(txt[-4:])
 print(len(txt))
+
