@@ -6,3 +6,4 @@ print("oi", end='\n')# end = final do print
 print("Tchau",                                  "oi")
 print(12,34,56,78,sep='joao',end='-')
 
+print(type('iihi'))
